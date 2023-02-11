@@ -6,6 +6,7 @@ layout: home
 title: Tech Illustrated
 permalink: /
 link: /
+stylesheet: styles
 ---
 
 COMING SOON
