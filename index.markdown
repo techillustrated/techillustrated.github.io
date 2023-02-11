@@ -5,6 +5,7 @@
 layout: home
 title: Tech Illustrated
 permalink: /
+link: /
 ---
 
-Tech Illustrated is a vogue magazine for Techknights, by Techknights. Enjoy!
+COMING SOON

@@ -2,19 +2,26 @@
 
 ---
 
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
-    <a href="/"><h1>{{ page.title }}</h1></a>
+    <header>
+      <h1>
+        <a id = "title" href="{{ page.link }}">{{ page.title }}</a>
+      </h1>
+    </header>
+
     <section>
       {{ content }}
     </section>
+
     <footer>
-      Tech Illustrated, 2023
+      <span>Tech Illustrated, 2023</span>
     </footer>
   </body>
 </html>
