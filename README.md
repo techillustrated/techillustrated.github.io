@@ -1,1 +1,0 @@
-# techillustrated.github.io
