@@ -3,8 +3,8 @@
 ---
 
 @import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap);
 
 // RESET SIZING:
 
@@ -15,9 +15,18 @@ html, body {
 	margin: 0px;
 }
 
+body {
+	background-color: #f0e6c7;
+}
+
 * {
 	padding: 0px;
 	margin: 0px;
+}
+
+a {
+	color: Black;
+	text-decoration: none;
 }
 
 // :RESET SIZING
@@ -31,13 +40,13 @@ div#sidebar {
 	display: flex;
 	justify-content: center;
 	span {
-		font-family: 'Work Sans';
-		font-weight: 300;
+		font-family: 'Cutive Mono';
+		font-weight: 700;
 		writing-mode: vertical-rl;
 		text-orientation: mixed;
 		letter-spacing: 0.1px;
 		height: 100%;
-		padding-top: 1em;
+		padding-top: 1.5em;
 		font-size: 1em;
 		line-height: 1em;
 	}
@@ -49,17 +58,47 @@ div#sidebar {
 
 div#body {
 	height: 100%;
-	width: 90%;
+	width: 82.5%;
 	float: left;
+	margin-left: 2.5%;
 
 	// SECTIONS:
 
 	div#header {
 		height: 7.5%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-bottom: solid 0.75px black;
+		h1 {
+			font-family: 'Cutive Mono';
+			font-weight: 700;
+			font-size: 1em;
+			padding-left: 1.5em;
+		}
 	}
 
 	div#content {
 		height: 92.5%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		div#soon {
+			font-family: 'IBM Plex Sans';
+			font-weight: 300;
+			height: 2.5em;
+			line-height: 2.5em;
+			margin-top: 100%;
+			width: 85%;			
+			text-align: center;
+			border: solid 0.75px black;
+			border-radius: 1.5px;
+			p {
+				width: 100%;
+				height: 100%;
+				font-size: 1em;
+			}
+		}
 	}
 
 	// :SECTIONS

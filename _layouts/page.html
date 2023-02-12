@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 	<head>
 		<!-- METADATA -->
@@ -11,10 +10,13 @@
 	<body>
 		<div id = "body">
 			<div id = "header">
-				<h1>tech illustrated</h1>
+				<h1><a href = "/">{{ page.title }}</a></h1>
 			</div>
 			<div id = "content">
-				{{ content }}
+				<div id = "soon">
+					{{ page.content }}
+				</div>
+
 			</div>
 		</div>
 		<div id = "sidebar">
