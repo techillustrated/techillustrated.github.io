@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: home
+title: soon
+permalink: /SOON/
 ---
-<script type="text/javascript">
-	window.location.replace("/SOON/");
-</script>
+<p>SPRING 2023</p>

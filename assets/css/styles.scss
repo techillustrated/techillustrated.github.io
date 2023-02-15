@@ -123,6 +123,10 @@ div#body {
 	div#body div#content div#soon {
 		font-size: 1.5em;
 		width: 50%;
+		p:hover {
+			cursor: not-allowed;
+			color: #440000;
+		}
 	}
 
 }
