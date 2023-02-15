@@ -13,6 +13,7 @@ html, body {
 	height: 100%;
 	padding: 0px;
 	margin: 0px;
+	// overflow-y: hidden;
 }
 
 body {
@@ -35,7 +36,7 @@ a {
 
 div#sidebar {
 	height: 100%;
-	width: 10%;
+	width: 12.5%;
 	float: right;
 	display: flex;
 	justify-content: center;
@@ -58,7 +59,7 @@ div#sidebar {
 
 div#body {
 	height: 100%;
-	width: 82.5%;
+	width: 80%;
 	float: left;
 	margin-left: 2.5%;
 
@@ -73,7 +74,7 @@ div#body {
 		h1 {
 			font-family: 'Cutive Mono';
 			font-weight: 700;
-			font-size: 1em;
+			font-size: 1.125em;
 			padding-left: 1.5em;
 		}
 	}
@@ -88,7 +89,7 @@ div#body {
 			font-weight: 300;
 			height: 2.5em;
 			line-height: 2.5em;
-			margin-top: 100%;
+			margin: auto;
 			width: 85%;			
 			text-align: center;
 			border: solid 0.75px black;
@@ -106,3 +107,22 @@ div#body {
 }
 
 // :BODY CONTAINER
+
+// DESKTOP:
+
+@media only screen and (min-width: 600px) {
+	div#sidebar {
+		span {
+			padding-top: 2em;
+			font-size: 1.25em;
+		}
+	}
+	div#header {
+		font-size: 1.5em;
+	}
+	div#body div#content div#soon {
+		font-size: 1.5em;
+		width: 50%;
+	}
+
+}
